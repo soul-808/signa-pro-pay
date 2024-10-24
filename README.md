@@ -1,6 +1,7 @@
 # Signa-Pro-Pay
 
 A transaction processing system built with Next.js, Bun, MongoDB, and TypeScript.
+
 Assisted by the Tech Guru: https://chatgpt.com/g/g-cfeVikHQV-tech-guru
 
 ## Project Timeline & Development Log
