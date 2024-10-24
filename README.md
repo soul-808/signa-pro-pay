@@ -9,7 +9,8 @@ Assisted by the Tech Guru: https://chatgpt.com/g/g-cfeVikHQV-tech-guru
 Total Development Time: ~5 hours
 
 ## Screenshot
-![image](https://github.com/user-attachments/assets/3461467c-c7ff-4ec6-8347-9549844c6efb)
+![image](https://github.com/user-attachments/assets/c668fc36-68d4-4dc3-b921-de8fc6b145d5)
+
 
 
 
