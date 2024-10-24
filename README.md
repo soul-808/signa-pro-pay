@@ -185,9 +185,8 @@ signa-pro-pay/
 ## Prompt Log
 
 >Prompt:
-Ok let's get started with our class project "Signa-Pro-Pay" I will give a document with the details. I want to use Bun, Next, Mongoose/ MongoDB, and typescript. (Keep in mind that I have never used bun or next but I've used react, vue, angular, nodejs, express) Here are the details of the project attached. But first let's clarify any assumptions
-
-For the api we can just use generic api security middleware that I could hotswap with something more robust if needed but for this I will simply pass a hard coded api key in the headers from the FE. Also as we continue, be critical of any responses or inputs. Look for the cons and if something is not a great idea then say that it's trash. Be ruthless and pragmatic.
+Ok let's get started with our class project "Signa-Pro-Pay" I will give a document with the details. I want to use Bun, Next, Mongoose/ MongoDB, and typescript. (Keep in mind that I have never used bun or next but I've used react, vue, angular, nodejs, express) Here are the details of the project attached. But first let's clarify any assumptions.
+>For the api we can just use generic api security middleware that I could hotswap with something more robust if needed but for this I will simply pass a hard coded api key in the headers from the FE. Also as we continue, be critical of any responses or inputs. Look for the cons and if something is not a great idea then say that it's trash. Be ruthless and pragmatic.
 
 
 >Prompt:
