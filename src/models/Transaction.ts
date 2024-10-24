@@ -1,6 +1,6 @@
-import mongoose, { Schema, Document } from 'mongoose';
+import mongoose, { Schema } from 'mongoose';
 
-interface ITransaction extends Document {
+export interface ITransaction {
   accountName: string;
   cardNumber: number;
   transactionAmount: number;
@@ -12,14 +12,14 @@ interface ITransaction extends Document {
 }
 
 const transactionSchema = new Schema<ITransaction>({
-  accountName: { type: String, required: true },
-  cardNumber: { type: Number, required: true },
-  transactionAmount: { type: Number, required: true },
-  transactionType: { type: String, enum: ['Credit', 'Debit', 'Transfer'], required: true },
+  accountName: { type: String, },
+  cardNumber: { type: Number, },
+  transactionAmount: { type: Number, },
+  transactionType: { type: String, enum: ['Credit', 'Debit', 'Transfer'], },
   description: { type: String },
   targetCardNumber: { type: Number },
   isProcessed: { type: Boolean, default: false },
   isValid: { type: Boolean, default: true },
-});
+}, { timestamps: true });
 
 export default mongoose.models.Transaction || mongoose.model<ITransaction>('Transaction', transactionSchema);
