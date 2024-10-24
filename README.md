@@ -8,6 +8,10 @@ Assisted by the Tech Guru: https://chatgpt.com/g/g-cfeVikHQV-tech-guru
 
 Total Development Time: ~5 hours
 
+## Screenshot
+![image](https://github.com/user-attachments/assets/ab9f9c7b-78a5-4b25-9b46-d5e7d18d5676)
+
+
 ### Initial Setup & Environment Configuration
 **Duration: 1 hour 26 minutes**
 - Project planning and GPT Agent setup
