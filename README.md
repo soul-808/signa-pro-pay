@@ -2,7 +2,7 @@
 
 A transaction processing system built with Next.js, Bun, MongoDB, and TypeScript.
 
-Assisted by the Tech Guru: https://chatgpt.com/g/g-cfeVikHQV-tech-guru
+Assisted by the Tech Guru (see limited prompt log below): https://chatgpt.com/g/g-cfeVikHQV-tech-guru
 
 ## Project Timeline & Development Log
 
@@ -181,6 +181,34 @@ signa-pro-pay/
 
 ## Challenge Reference
 [Original Challenge](https://github.com/signapay/processor-interview)
+
+## Prompt Log
+
+>Prompt:
+Ok let's get started with our class project "Signa-Pro-Pay" I will give a document with the details. I want to use Bun, Next, Mongoose/ MongoDB, and typescript. (Keep in mind that I have never used bun or next but I've used react, vue, angular, nodejs, express) Here are the details of the project attached. But first let's clarify any assumptions
+
+For the api we can just use generic api security middleware that I could hotswap with something more robust if needed but for this I will simply pass a hard coded api key in the headers from the FE. Also as we continue, be critical of any responses or inputs. Look for the cons and if something is not a great idea then say that it's trash. Be ruthless and pragmatic.
+
+
+>Prompt:
+Ok let's get started with our class project "Signa-Pro-Pay"
+I will give a document with the details. I want to use BunJs and Next JS, Mongoose/ MongoDB, and type script. (Keep in mind that I have never used bun or next but I've used react, vue, angular, nodejs, express). 
+Here are the details of the project attached. But first let's clarify any assumptions
+
+
+>Prompt: 
+Give me a mongoose query on the transactions collection that groups the transactions by account name, the a sub group under the account grouped by the card name with the amount on each card (here it needs to sum all the transaction types) and for each card I want a group of the transactions list
+Here is the transaction model: ….
+
+>Prompt:
+Use material ui to create table components to support his ui view
+each row should be the account
+the sub rows should be cards for that account that are expandable to see the transactions list
+
+>Prompt:
+That is perfect, now keep the same logic but make this pretty: …
+
+
 
 # VERCEL DOCS #
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
