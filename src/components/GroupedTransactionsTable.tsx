@@ -60,7 +60,7 @@ export default function GroupedTransactionsTable({ transactions }: { transaction
 }
 
 function AccountRow({ account }: { account: any }) {
-    const [open, setOpen] = useState(true);
+    const [open, setOpen] = useState(false);
 
     return (
         <>
